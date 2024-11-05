@@ -12,13 +12,14 @@ public class _04_ElseIf_LimitScore {
 		
 		System.out.println("=== 시험 점수 ===");
 		/*
-		   0 이상 100 이하인 점수를 유효한 범위로 간주, 
+		   100초과, 0 미만(음수)
 		   논리합(||) 사용 -> true || false -> true, true || true -> true
-		 */
+		*/
 		if(score>100 || score<0) {  
 			result = "잘못된 점수를 입력";
 		}
 		
+		// 0 이상 100 이하인 점수를 유효한 범위로 간주
 		else {
 		// 60점 이상일 때, 합격
 			if (score >= 60) {
