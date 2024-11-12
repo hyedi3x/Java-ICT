@@ -13,7 +13,7 @@ public class ArrayChar {
 			alphabets[i] = ch;
 		}
 		
-		// [인덱스 i -> 1씩 증가, ch 변수값 -> 1씩 증가]
+		// [인덱스 i -> 1씩 증가]
 		// alphabets 배열 길이만큼 반복(26번), int형으로 형변환(65~90)
 		for(int i=0; i<alphabets.length; i++) {
 			System.out.println("alphabets[" + alphabets[i] + "]" + "," 
